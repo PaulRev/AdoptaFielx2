@@ -1,0 +1,51 @@
+@media (width>700px) {
+    header{
+        height: 500px;
+        background-position: center;
+    }
+    .mainInfoWeb-IMG {
+        height: 400px;
+      }
+}
+@media (width >=1366px) {
+    .mainInfoWeb-IMG {
+        height: 500px;
+      }
+       /* NAV */
+    .navTOOGLE {
+        width: 40%;
+        height: 100%;
+      }
+  
+}
+
+@media (width >=1440px) {
+    ul {
+        gap: 20px;
+      }
+      .mainInfoWeb-IMG {
+        height: 600px;
+      }
+    .logoCentral {
+       background-color: rgb(255, 204, 0);
+       display: flex;
+       justify-content: center;
+      }
+      .logoCentral img {
+        width: 50%;
+      }
+}
+
+@media (width >=1920px) {
+      .logoCentral img {
+        width: 50%;
+      }
+      .mainInfoWeb {
+        font-size: 22px;
+      }
+       /* NAV */
+    .navTOOGLE {
+        width: 20%;
+        height: 100%;
+      }
+}
